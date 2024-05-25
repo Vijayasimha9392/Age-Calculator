@@ -72,3 +72,13 @@
 #result span{
     color: #dede26;
 }
+.footer{
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 400px;
+}
+.footer-text{
+    color: #dede26;
+    font-weight: 500;
+    font-size: 15px;
+}
