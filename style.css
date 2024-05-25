@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#4203a9,#99bafc); /* color of web page with gradients */
+    color: #fff;
+    padding: 10px;
+}
+.calculator{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.calculator h1{
+    font-size: 60px; /* text size */
+}
+.calculator h1 span{
+    color: #ffff76; /* text color */
+}
+.input-box{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3); /* Background box with color pale white */
+    display: flex;
+    align-items: center;
+}
+.input-box input{
+    flex: 1;  /* width of date  */
+    margin-right: 20px;  /* It gives space btw the date and button */
+    padding: 14px 20px; /* 14px = increase the box size and 20px = increase the outer padding*/
+    border: 0;
+    outline: 0;
+    font-size: 18px;  /* Increase the size of text inside the date */
+    border-radius: 5px;  /* It gives curve date box  */
+    position: relative;
+}
+.input-box button{
+    background: #ffff76; /* button text color gold  */
+    border: 0; /* Remove the button black box  */
+    outline: 0;
+    padding: 15px 30px; /* 15px = increase the button size and 30px = increase the button width */
+    border-radius: 5px; /* It gives curve button box  */
+    font-weight: 500;
+    font-size: 17px;
+    color: #333;
+    cursor: pointer; /* it shows tumb finger when we on the button */
+
+}
+.input-box input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+}
+#result{
+    font-size: 20px;
+
+}
+#result span{
+    color: #dede26;
+}
